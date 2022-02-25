@@ -26,9 +26,10 @@ if (argv.nl) {
 }
 
 const name =
-  namesSearchList[randomIntFromInterval(0, namesSearchList.length - 1)].value;
+  namesSearchList[randomIntFromInterval(0, namesSearchList.length - 1)];
 const lastName =
-  lastNamesSearchList[randomIntFromInterval(0, lastNamesSearchList.length - 1)]
-    .value;
-
-console.log(`${name} ${lastName}`);
+  lastNamesSearchList[randomIntFromInterval(0, lastNamesSearchList.length - 1)];
+// Mr /Mister/ ( married man ), Mrs /Missus/ ( Married Woman )
+// Miss /Miss/  ( No married woman ), Ms /Mizz/ ( Don't tell if is married or not)
+const title = name.gender === "boy" ? "Mr" : "Ms";
+console.log(`${title} ${name.value} ${lastName.value}`);
