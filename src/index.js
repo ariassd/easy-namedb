@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+"use strict";
 const lastNameDB = require("./last-names.db.json");
 const namesDB = require("./names.db.json");
 const argv = require("minimist")(process.argv.slice(2));
