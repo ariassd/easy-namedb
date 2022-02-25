@@ -39,7 +39,7 @@ $ easy-namedb
 
 ## Developer
 
-- Author - Luis Arias 2021 <<ariassd@gmail.com>>
+- Author - Luis Arias 2022 <<ariassd@gmail.com>>
   [GitHub profile](https://github.com/ariassd)
 
 ## License
