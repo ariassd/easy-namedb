@@ -1,0 +1,22 @@
+{
+  "name": "easy-namedb",
+  "version": "1.0.0",
+  "description": "Easy way to get name and username for test",
+  "main": "src/index.js",
+  "scripts": {
+    "start:dev": "node ./src/index.js $1 $2 $3 $4 $5"
+  },
+  "bin": {
+    "easy-namedb": "./src/index.js"
+  },
+  "keywords": [
+    "Name",
+    "Generate",
+    "Testing"
+  ],
+  "author": "Luis Arias",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
+}
