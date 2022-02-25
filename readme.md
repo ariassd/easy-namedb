@@ -10,7 +10,7 @@ Get random names for test
 
 1. Install globally from one of the following sources
    a- from the source code `npm install -g`
-   b- from the repository `npm i -g https://github.com/ariassd/easy-namedb`
+   b- from the repository `npm i -g https://github.com/ariassd/easy-namedb#v1.0.0`
 
 ## Running the script
 
